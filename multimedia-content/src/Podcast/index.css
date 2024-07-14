@@ -1,0 +1,624 @@
+body{
+    background-color: #000E30;
+}
+
+  .podcast-section{
+    gap: 30px;
+    margin-left: 150px;
+    /* padding-bottom: 300px; */
+    line-height: 1.2; 
+
+}
+.real{
+    border: 3px solid;
+    padding: 15px;
+    color: #fff;
+    border-color: #D51384;
+    width: 100px;
+    margin-left: 250px;
+   
+}
+.vivo{
+font-size: 60px;
+color: #fff;
+margin-left: 100px;
+
+}
+.podcast{
+    font-size: 250px;
+    padding-bottom: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D51384;
+}
+.pod{
+    color: #D51384;
+}
+.main{
+    display: flex;
+    margin-left: 80px;
+    gap: 80px;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+}
+.mike{
+    width: 600px;
+    height: 750px;
+
+}
+footer{
+    text-align: center;
+    color: #D51384;
+    
+}
+.play{
+    margin-left: 100px;
+    font-size: 50px;
+    padding-bottom: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D51384;
+
+}
+
+
+
+
+@media only screen and (min-width:375px) and (max-width:667px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 100px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 30px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -20px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 200px;
+        height: 350px;
+        padding-left: 80px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:896px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 90px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -20px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 200px;
+        height: 350px;
+        padding-left: 60px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+
+@media only screen and (min-width:390px) and (max-width:884px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 100px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 30px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -20px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 300px;
+        height: 350px;
+        padding-left: 80px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width:430px) and (max-width:932px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 110px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 30px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -20px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 300px;
+        height: 350px;
+        padding-left: 60px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+@media only screen and (min-width:360px) and (max-width:740px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 100px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 30px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -20px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 280px;
+        height: 350px;
+        padding-left: 60px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+@media only screen and (min-width:412px) and (max-width:915px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 100px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 30px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -20px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 280px;
+        height: 350px;
+        padding-left: 60px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 100px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 30px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: -10px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 280px;
+        height: 350px;
+        padding-left: 60px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
+
+@media only screen and (min-width:540px) and (max-width:740px) {
+    body{
+        background-color: #000E30;
+    }
+    
+      .podcast-section{
+        gap: 30px;
+        margin-left:0px;
+        flex-wrap: wrap;
+        line-height: 1.5; 
+    
+    }
+    .real{
+        border: 3px solid;
+        padding: 15px;
+        color: #fff;
+        border-color: #D51384;
+        width: 50px;
+        margin-left: 30px;
+       
+    }
+    .vivo{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    
+    }
+    .podcast{
+        font-size: 120px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+        padding-left: 20px;
+    }
+    .pod{
+        color: #D51384;
+    }
+    .main{
+        display: flex;
+        margin-left: 40px;
+        text-align: center;
+        gap: 0px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mike{
+        width: 300px;
+        height: 350px;
+        padding-left: 60px;
+    
+    }
+    footer{
+        text-align: center;
+        color: #D51384;
+        flex-wrap: wrap;
+        
+    }
+    .play{
+        margin-left: -10px;
+        font-size: 30px;
+        padding-bottom: 180px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #D51384;
+    
+    }
+    
+    
+}
+
