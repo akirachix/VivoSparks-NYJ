@@ -12,8 +12,8 @@ body {
   
   .heading {
     color: white;
-    margin-top: 200px;
-    font-size: 30px;
+    margin-top: 80px;
+    font-size: 10px;
   }
   
   .paragraph {
@@ -23,7 +23,7 @@ body {
   .image {
     width: 600px;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   
   .btn {
@@ -40,7 +40,7 @@ body {
   /* Media Queries */
   
   /* Extra Small Devices (Phones) */
-  @media (max-width: 576px) {
+  /* @media (max-width: 576px) {
     .heading {
       font-size: 20px;
       margin-top: 30px;
@@ -52,68 +52,165 @@ body {
     }
   
     .image {
-      width: 100%;
+      width: 100px;
       height: auto;
       margin-top: 30px;
+      padding-left: 4%;
     }
+    .container {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+  } */
+  
+  /* Small Devices (280px to 340px) */
+@media (min-width: 280px) and (max-width: 340px) {
+  .heading {
+    font-size: 18px;
+    margin-top: 60px;
+    padding-left: 5%;
   }
-  
-  /* Small Devices (Tablets) */
-  @media (min-width: 576px) and (max-width: 768px) {
-    .heading {
-      font-size: 20px;
-      margin-top: 30px;
-    }
-  
-    .paragraph {
-      font-size: 10px;
-    }
-  
-    .image {
-      width: 100%;
-      height: auto;
-      margin-top: 30px;
-    }
+
+  .paragraph {
+    font-size: 12px;
   }
-  
-  /* Medium Devices (Desktops) */
-  @media (min-width: 768px) and (max-width: 992px) {
-    .heading {
-      font-size: 20px;
-      margin-top: 30px;
-    }
-  
-    .paragraph {
-      font-size: 14px;
-    }
-  
-    .image {
-      width: 100%;
-      height: auto;
-      margin-top: 90px;
-    }
+
+  .image {
+    width: 200px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 5%;
   }
-  
-  /* Large Devices (Desktops) */
-  @media (min-width: 992px) and (max-width: 1200px) {
-    .heading {
-      font-size: 30px;
-      margin-top: 200px;
-      padding-left: 5%;
-    }
-  
-    .paragraph {
-      font-size: 20px;
-    }
-  
-    .image {
-      width: 100%;
-      height: auto;
-      margin-top: 100px;
-    }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
-  
-  /* Extra Large Devices (Desktops) */
-  @media (min-width: 1200px) {
-    /* No changes needed for this screen size */
+}
+
+/* Small Devices (340px to 440px) */
+@media (min-width: 340px) and (max-width: 440px) {
+  .heading {
+    font-size: 20px;
+    margin-top: 60px;
+    padding-left: 5%;
   }
+
+  .paragraph {
+    font-size: 15px;
+  }
+
+  .image {
+    width: 220px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small Devices (440px to 540px) */
+@media (min-width: 440px) and (max-width: 540px) {
+  .heading {
+    font-size: 28px;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .paragraph {
+    font-size: 19px;
+  }
+
+  .image {
+    width: 260px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small Devices (540px to 640px) */
+@media (min-width: 540px) and (max-width: 640px) {
+  .heading {
+    font-size: 35px;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .paragraph {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 300px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small Devices (640px to 740px) */
+@media (min-width: 640px) and (max-width: 740px) {
+  .heading {
+    font-size: 40px;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .paragraph {
+    font-size: 22px;
+  }
+
+  .image {
+    width: 360px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small Devices (740px to 880px) */
+@media (min-width: 740px) and (max-width: 880px) {
+  .heading {
+    font-size: 45px;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .paragraph {
+    font-size: 24px;
+  }
+
+  .image {
+    width: 400px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+

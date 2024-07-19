@@ -25,7 +25,7 @@ function Navbar() {
 
           <li><Link to="/" className="nav-link">Home</Link></li>
           <li><Link to="/videos" className="nav-link">Video</Link></li>
-          <li><Link to="/writing" className="nav-link">Writing</Link></li>
+          <li><Link to="/writing" className="nav-link">Blog</Link></li>
           <li><Link to="/podcast" className="nav-link">Podcast</Link></li>
           <li><Link to="/portfolio" className="nav-link">Portfolio</Link></li>
         </ul>
